@@ -16,5 +16,6 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             unalias rm
+            cd /pub/skaur126
             rm -rf cmsc389T-web-Sukhman
 
