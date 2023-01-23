@@ -9,23 +9,96 @@
   <body>
     <header class="main-header">
       <br>
-      <h1 class="my-name my-name-large">YOUR NAME</h1>
+      <h1 class="my-name my-name-large">Sukhman Kaur</h1>
     </header>
     <br><br><br>
     <section class="content-section container">
       <h2 class="section-header">About Me</h2>
-      <img class="about-prof-image" src="assets/profile.png" height="200" width="200">
+      <img class="about-prof-image" src="file:///Users/sukhmankaur/Desktop/IMG_1787.png" height="200" width="200">
       <p>
-        Introduce Yourself
+        Hi! I am a senior at the University of Maryland, College Park studying Computer Science and Business. 
       </p>
 
       <p>
-        Relevant Info
+        I am 22 years old and have two younger siblings. I was born and raised in Maryland!
       </p>
 
       <p>
-        Your Interests
+        I enjoy hanging with my friends and family, watching movies and tv, and playing soccer. A fun fact about me is that I volunteer with Warrior Canine Connection and foster service dogs!
       </p>
+      <h3 class="section-header">Leave Sukhman a Message!</h3>
+      <style>
+        form {
+          margin: 0 auto;
+          width: 400px;
+          padding: 1em;
+          border: 1px solid #ccc;
+          border-radius: 1em;
+        }   
+  
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+  
+        form li + li {
+          margin-top: 1em;
+        }
+  
+        label {
+          display: inline-block;
+          width: 90px;
+          text-align: right;
+        }
+  
+        input,
+        textarea {
+   
+        font: 1em sans-serif;
+        width: 300px;
+        box-sizing: border-box;
+        border: 1px solid #999;
+        }
+  
+        input:focus,
+        textarea:focus {
+        border-color: rgb(71, 9, 214);
+        }
+      
+      textarea {
+        vertical-align: top;
+         height: 5em;
+      }
+  
+      .button {
+        padding-left: 90px; 
+      }
+  
+       button {
+        margin-left: 0.5em;
+      }
+      </style>
+  <form action="/my-handling-form-page" method="post">
+    <ul>
+      <li>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+      </li>
+      <li>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" />
+      </li>
+      <li>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </li>
+      <p>
+             
+      </p>
+      <input type="submit" value="Send" />
+    </ul>
+  </form>
 
       <br><br><br><br><br><br><br><br><br><br><br>
     </section>
@@ -35,13 +108,13 @@
         <ul class="nav footer-nav">
           <li>
             <!-- YOUR GITHUB -->
-            <a href="https://github.com/" target="_blank">
+            <a href="https://github.com/sukhmank11" target="_blank">
               <img class="sm-logo" src="assets/githubwhite.png" height="50" width="50">
             </a>
           </li>
           <li>
             <!-- YOUR LINKEDIN -->
-            <a href="https://www.linkedin.com/" target="_blank">
+            <a href="https://www.linkedin.com/in/sukhman-kaur-1a7b58101/" target="_blank">
               <img class="sm-logo" src="assets/linkedinwhite.png" height="50" width="50">
 
             </a>
@@ -57,6 +130,10 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>  
+
+
+    
+     
   </body>
 	
   
