@@ -14,5 +14,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd ~/pub/skaur126
+            cd /pub/skaur126
             git clone https://github.com/sukhmank11/cmsc389T-web-Sukhman.git
